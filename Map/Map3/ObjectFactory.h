@@ -1,5 +1,5 @@
 #pragma once
-#include "Object1.h"
+#include "Object.h"
 
 template <typename T>
 class ObjectFactory

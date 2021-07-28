@@ -2,9 +2,9 @@
 #include "ObjectFactory.h"
 #include "ObjectManager.h"
 
-#include "Player1.h"
-#include "Bullet1.h"
-#include "Enemy1.h"
+#include "Player.h"
+#include "Bullet.h"
+#include "Enemy.h"
 
 MainUpdate::MainUpdate()
 {

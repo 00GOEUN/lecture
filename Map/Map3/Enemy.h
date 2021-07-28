@@ -1,12 +1,12 @@
 #pragma once
-#include "Object1.h"
+#include "Object.h"
 
-class Player1 : public Object1
+class Enemy : public Object
 {
 public:
 	virtual void Initialize()override { strKey = "Bullet"; }
 public:
-	Player1() {}
-	virtual ~Player1() {}
+	Enemy() {}
+	virtual ~Enemy() {}
 
 };

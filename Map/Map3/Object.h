@@ -1,7 +1,7 @@
 #pragma once
 #include "Headers.h"
 
-class Object1
+class Object
 {
 protected:
 	Transform Info;
@@ -12,7 +12,6 @@ public:
 	void Output() { cout << strKey << endl; }
 	string Getkey() { return strKey; }
 public:
-	Object1() {}
-	virtual ~Object1() {}
+	Object() {}
+	virtual ~Object() {}
 };
-
